@@ -64,3 +64,5 @@ Subimos nuestra imagen a docker hub
 ```bash
 docker push wdavilav/docker-django
 ```
+
+https://onthedock.github.io/post/170716-mi-primera-app-en-kubernetes/
