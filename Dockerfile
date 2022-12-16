@@ -5,7 +5,8 @@ WORKDIR /home/projects
 # install requirements
 COPY . .
 RUN pip install -r requirements.txt
-RUN sh entrypoint.sh
-RUN rm -r Dockerfile && rm -r entrypoint.sh
+RUN python manage.py migrate
+#RUN sh entrypoint.sh
+#RUN rm -r Dockerfile && rm -r entrypoint.sh
 
 
