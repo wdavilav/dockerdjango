@@ -48,6 +48,10 @@ https://hub.docker.com/
 | `docker build -t docker-django .`                                                  | Permite crear una imagen de docker                                                                             |
 | `docker run -it --rm -p 8000:8000 django-server python manage.py runserver 0:8000` | Permite ejecutar nuestra imagen de django                                                                      |
 
+### Como crear una imagen en docker
+```bash
+docker build -t docker-django .
+```
 
 ### Subir nuestra imagen a docker hub
 Creamos la imagen con ruta a nuestro usuario de docker hub:
